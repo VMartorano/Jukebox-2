@@ -9,6 +9,7 @@ h1 {
   color: lightgray;
   font-weight: bolder;
   margin-bottom: 0;
+  text-shadow: 5px 5px 5px #990300;
 }
 
 h2 {
