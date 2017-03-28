@@ -40,6 +40,7 @@ play.addEventListener("click", function(event){
    document.getElementById("genre").innerHTML = "Genre: " + response.genre;
    document.getElementById("cover").src = response.artwork_url;
    document.getElementById("date").innerHTML = "Date Added: " + response.created_at;
+   document.getElementById("description").innerHTML = "Description: " + response.description;
   // console.log(response);
  });
 })

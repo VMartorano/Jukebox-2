@@ -19,6 +19,7 @@ h2 {
   color: lightgray;
   font-weight: bolder;
   text-decoration: underline;
+  text-shadow: 2px 2px 3px #990300;
 }
 
 .buttons {
@@ -78,7 +79,7 @@ transition-duration: .2s
   text-align: center;
   margin: auto auto;
   display: inline-block;
-  margin-left: 25%;
+  margin-left: 17.5%;
   margin-right: 5%;
 }
 
@@ -92,4 +93,5 @@ transition-duration: .2s
   display: inline-block;
   margin-bottom: 20%;
   vertical-align: middle;
+  width: 40%;
 }
