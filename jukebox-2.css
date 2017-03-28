@@ -38,7 +38,7 @@ padding: 15px;
 background-color: lightgray;
 border-radius: 40px;
 transition-property: color, background-color;
-transition-duration: .2s
+transition-duration: .2s;
 }
 
 #play:hover{
