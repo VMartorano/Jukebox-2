@@ -1,0 +1,94 @@
+body {
+  background: url(https://wallpaperbrowse.com/media/images/geo-shapes-black-1280.jpg);
+}
+
+h1 {
+  font-size: 120px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  color: lightgray;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  color: lightgray;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.buttons {
+  text-align: center;
+  margin: auto auto;
+  display: inline-block;
+  margin-bottom: -25px;
+}
+
+#play {
+float:left;
+color: #990300;
+/*margin-left:px;*/
+margin-bottom: 15px;
+padding: 15px;
+background-color: lightgray;
+border-radius: 40px;
+transition-property: color, background-color;
+transition-duration: .2s
+}
+
+#play:hover{
+  background-color: #990300;
+  color: lightgray;
+}
+
+#pause {
+float:left;
+margin-left:20px;
+margin-bottom: 15px;
+color: #990300;
+padding: 15px;
+background-color: lightgray;
+border-radius: 40px;
+transition-property: color, background-color;
+transition-duration: .2s
+}
+
+#pause:hover{
+  background-color: #990300;
+  color: lightgray;
+}
+
+#songInfo {
+  color: lightgray;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#songInfo div a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.artwork {
+  text-align: center;
+  margin: auto auto;
+  display: inline-block;
+  margin-left: 25%;
+  margin-right: 5%;
+}
+
+.artwork img {
+   width: 250px;
+}
+
+.info {
+  text-align: center;
+  margin: auto auto;
+  display: inline-block;
+  margin-bottom: 20%;
+  vertical-align: middle;
+}
